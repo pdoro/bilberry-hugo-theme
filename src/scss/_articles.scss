@@ -118,11 +118,17 @@ article {
         padding: 1em 2em;
         font-family: monospace;
         font-size: 0.9em;
+    }
 
-        a:not(:last-child):after {
-            content: " / ";
-            color: $text-color !important;
-        }
+    .tag {
+        background: #588fe5;
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        padding-right: .6em;
+        padding-left: .6em;
+        border-radius: 10rem;
+        text-decoration: none;
     }
 
     // Quotes
